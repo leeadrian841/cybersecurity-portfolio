@@ -17,9 +17,7 @@ Here are some ideas to get you started:
 # Hello, I'm Adrian
 <a href="https://www.linkedin.com/in/leeadrian841/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-[Brief Introduction - Remove this afterwards]
-
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+I am an experienced product manager with a few years of experience in implementing data-driven strategies to improve user outcomes & operational efficiency for B2C & B2B digital products. Proven track record in leveraging user research to drive innovation, bring excellent user value, and protect sensitive information for users.
 
 ## Objective
 [Provide Objective - Remove this afterwards]]
