@@ -7,9 +7,17 @@
 <body>
   <div id="content"></div>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script>
+<!--   <script>
     document.getElementById('content').innerHTML =
       marked.parse('README.md');
-  </script>
+  </script> -->
+<script>
+  fetch('./README.md')
+    .then(response => response.text())
+    .then(text => {
+      const content = marked(text);
+      document.getElementById('content').innerHTML = content;
+    });
+</script>
 </body>
 </html>
