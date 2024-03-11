@@ -8,8 +8,12 @@
   <div id="content"></div>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    document.getElementById('content').innerHTML =
-      marked.parse('# Marked in browser\n\nRendered by **marked**.');
+    const contentElement = document.getElementById('content');
+
+    fetch('README.md') // Replace 'README.md' with the actual filename if different
+      .then(response => response.text())
+      .then(text => contentElement.innerHTML = marked.parse(text))
+      .catch(error => console.error('Error fetching README:', error));
   </script>
 </body>
 </html>
